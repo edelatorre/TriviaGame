@@ -140,7 +140,7 @@ var app = {
         }
         html += "<div><img width='200' height='150' src='assets/images/" + app.questions[parentId].answer + ".jpg'></div>";
         $("#questions").html(html);
-        setTimeout(app.printNextQuestion, 1500);
+        setTimeout(app.printNextQuestion, 2000);
     },
 
     //print result
