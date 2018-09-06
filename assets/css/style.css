@@ -1,0 +1,38 @@
+
+body {
+    background-color: #000;
+    background-image: url("../images/bg_questions.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-backgrount-size: cover;
+    background-size: cover;
+    color: #ddd;
+}
+
+.container {
+    max-width: 380px;
+    margin-top: 5%;
+    background-color: rgba(17, 17, 17, 0.70);
+    border: 5px solid white;
+    border-radius: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 14px;
+}
+
+hr {
+    margin-top: 0px;
+    color: white;
+}
+
+
+
+
+
