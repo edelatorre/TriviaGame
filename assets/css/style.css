@@ -13,7 +13,7 @@ body {
 }
 
 .container {
-    max-width: 500px;
+    max-width: 80%; 
     margin-top: 2%;
     background-color: rgba(17, 17, 17, 0.70);
     border: 5px solid white;
@@ -41,7 +41,7 @@ hr {
 }
 
 .question {
-    color: #00f67b;
+    color: white;
     font-weight: bold;
     font-size: 15px;
     margin-bottom: 10px;
@@ -49,14 +49,13 @@ hr {
 
 #questions .btn-md {
     width: 150px;
-    margin-left: 30%;
     margin-top: 16px;
     margin-bottom: 30px;
 }
 
 .btn-answers{
-    width:150px;
-    text-align: left;
+    width:300px;
+    text-align: center;
     height: 30px;
     padding: 0px 5px;
 }
@@ -68,12 +67,12 @@ li {
 
 #correctOrWrong,
 #noAnswer {
-    font-weight: bold;
-    color: #00f67b;
+    font-weight: bolder;
+    color: white;
 }
 
 #correctOrWrong {
-    font-size: 20px;
+    font-size: 35px;
 }
 
 #noAnswer {
